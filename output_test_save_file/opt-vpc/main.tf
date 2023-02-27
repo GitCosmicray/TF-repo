@@ -16,3 +16,6 @@ provider "aws" {
 output "vpc_output" {
     value = aws_vpc.testing
 }
+
+#terraform apply
+#terraform output > output.txt /output.json 
